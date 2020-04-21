@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4506050768146250791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4506050768146250789}
+  - component: {fileID: 4506050768146250790}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4506050768146250789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506050768146250791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4506050768146250790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506050768146250791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805273c001801a84e843e47b9b4bf859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeList:
+  - {fileID: 929196348000013650, guid: 6402406131a64b8469b39de8d4580277, type: 3}
+  - {fileID: 8281942832065735437, guid: 74cdfaf858e1ca14298b4176b5b7fd14, type: 3}
+  - {fileID: 2891313947443051610, guid: fc0e76486760ea241ba00df300b1f679, type: 3}
+  - {fileID: 8763800339121027035, guid: 4740611a051b4aa4487464e55558f7ae, type: 3}
+  - {fileID: 7147282323532472149, guid: f346fb33b991e7e4893fadaac30951ce, type: 3}
+  - {fileID: 6835483676786150150, guid: dbb4cc97778f734459a777675aface59, type: 3}
+  - {fileID: 3364871209076807608, guid: f413a2592d9ea7145a8884d2fd68660d, type: 3}
+  generatePoint: {x: 5, y: 21}
+  gameBoard: {fileID: 0}
+  gameBoardMessage: {fileID: 0}
+  timeText: {fileID: 0}
+  scoreText: {fileID: 0}
+  levelText: {fileID: 0}
+  fallDuration: 0.5
